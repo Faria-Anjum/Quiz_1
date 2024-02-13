@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(41, 127, 184);
+    padding: 10px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.text *{
+    color: white;
+    font-size: 14vh;
+}
+
+.text h1{
+    border-left: 15px solid white;
+    padding-left: 3vw;
+    padding-right: 1vw;
+}
+
+.box{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0px 80px;
+    width: 30vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+form {
+    border-top: 1px solid grey;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+}
+
+input{
+    border: 0px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    background-color: transparent;
+}
+
+#forgot{
+    margin-left: 5%;
+}
+
+button{
+    color: white;
+    background-color: rgb(41, 127, 184);
+    border: 0px;
+    border-radius: 25px;
+    height: 50px;
+    width: 80%;
+    align-self: center;
+    font-size: larger;
+}
+
+#subscribe{
+    align-self: center;
+}
